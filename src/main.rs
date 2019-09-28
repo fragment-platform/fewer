@@ -50,12 +50,12 @@ fn run() -> io::Result<()> {
      );
 
      tags.insert("img");
-     let mut a_attributes = HashSet::new();
-     a_attributes.insert("src");
-     a_attributes.insert("alt");
+     let mut img_attributes = HashSet::new();
+     img_attributes.insert("src");
+     img_attributes.insert("alt");
      tag_attributes.insert(
          "img",
-         a_attributes
+         img_attributes
      );
 
      tags.insert("strong");
