@@ -4,7 +4,7 @@ It's like HTML, but Fewer.
 
 ## Usage
 
-`./cargo run -- input.html output.html
+`cargo run -- evil_input.html great_output.html`
 
 Here's the tag whitelist:
 
